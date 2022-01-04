@@ -1,0 +1,773 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+
+/* <!-- ================ header part start ================ --> */
+
+.item {
+    position: relative;
+    border-right: 3px solid #EA3A60;
+}
+
+.item .icon {
+    position: absolute;
+    top: 27px;
+    left: 0;
+}
+
+.item .icon i {
+    color: #EA3A60;
+    font-size: 25px;
+}
+
+.item .text {
+    position: absolute;
+    top: 17px;
+    left: 60px;
+}
+
+.item .text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #555555;
+
+}
+
+.item .text .number {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+
+}
+
+.item::after {
+    position: absolute;
+    top: 15px;
+    left: 175px;
+    width: 3px;
+    height: 46px;
+    content: '';
+    background: #EA3A60;
+}
+
+.item2 {
+    position: relative;
+    border-right: 3px solid #EA3A60;
+}
+
+.item2 .icon {
+    position: absolute;
+    top: 27px;
+    left: 13px;
+}
+
+.item2 .icon i {
+    color: #EA3A60;
+    font-size: 25px;
+}
+
+.item2 .text {
+    position: absolute;
+    top: 17px;
+    left: 60px;
+}
+
+.item2 .text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #555555;
+
+}
+
+.item2 .text .number {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+
+}
+
+.item2::after {
+    position: absolute;
+    top: 15px;
+    left: 270px;
+    width: 3px;
+    height: 46px;
+    content: '';
+    background: #EA3A60;
+}
+
+.item3 {
+    position: relative;
+    border-right: 3px solid #EA3A60;
+}
+
+.item3 .icon {
+    position: absolute;
+    top: 27px;
+    left: 12px;
+}
+
+.item3 .icon i {
+    color: #EA3A60;
+    font-size: 25px;
+}
+
+.item3 .text {
+    position: absolute;
+    top: 17px;
+    left: 55px;
+}
+
+.item3 .text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #555555;
+
+}
+
+.item3 .text .number {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+
+}
+
+.item4 .icon {
+    text-align: right;
+    margin-top: 28px;
+}
+
+.item4 .icon a {
+    margin-left: 20px;
+    font-size: 25px;
+    color: #EA3A60;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.item4 .icon a:hover {
+    color: rgb(9, 86, 230);
+
+}
+
+
+
+/* <!-- ================ header part end ================ --> */
+
+/* <!-- ================== menu part start =================== --> */
+
+.navbar {
+    background: #EA3A60;
+    margin-top: 11px;
+}
+
+.navbar ul li a {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.navbar ul .dropdown-menu li a {
+    background: #000000;
+}
+
+/* <!-- ================== menu part end =================== --> */
+
+/* <!-- ------------------ banner part start =================== --> */
+
+#banner {
+    background: url(../img/banner.png) no-repeat center;
+    background-size: cover;
+    height: 797px;
+}
+
+#banner .overlay {
+    background: rgba(61, 45, 45, 0.45);
+    width: 100%;
+    height: 100%;
+    padding-top: 125px;
+
+}
+
+.box {
+    width: 665px;
+    height: 500px;
+    background: #EA3A60;
+    margin-left: 43px;
+}
+
+#banner .overlay .box .text {
+    padding: 116px 85px;
+}
+
+#banner .overlay .box .text p {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+#banner .overlay .box .text h1 {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 12px;
+    margin-bottom: 26px;
+}
+
+#banner .overlay .box .text .small {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 71px;
+}
+
+#banner .overlay .box .text .button button {
+    padding: 17px 29px;
+    margin-right: 35px;
+}
+
+#banner .overlay .box .text .button button a {
+    color: #EA3A60;
+    text-decoration: none;
+}
+
+.box .text .button .b2 {
+    background: #EA3A60;
+}
+
+.box .text .button .b2 a {
+    color: #FFFFFF !important;
+}
+
+/* <!-- ------------------ banner part end =================== --> */
+
+
+/* <!-- ================== solution part start ================= --> */
+
+#solution {
+    margin: 150px 0;
+}
+
+#solution .box2 {
+    width: 455px;
+    height: 190px;
+    background: #EA3A60;
+}
+
+.box2 h1 {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    text-align: center;
+}
+
+.box2 h3 {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    text-align: center;
+}
+
+.read {
+    margin-left: 50px;
+}
+
+.read h1 {
+    color: #232323;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 63px;
+    position: relative;
+    top: -24px;
+}
+
+.read h1::after {
+    position: absolute;
+    top: 125px;
+    left: 0;
+    width: 239px;
+    height: 3px;
+    background: #EA3A60;
+    content: '';
+}
+
+.read p {
+    color: #555555;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 21px;
+}
+
+.read button {
+    padding: 23px 38px;
+    background: #FFFFFF;
+    text-decoration: none;
+    color: #EA3A60;
+    margin-top: 25px;
+    border: 2px solid #EA3A60;
+}
+
+.read button a {
+    text-decoration: none;
+    color: #EA3A60;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+/* <!-- ================== business part start ================ --> */
+#business {
+    margin-bottom: 78px;
+}
+
+#business h1 {
+    color: #232323;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 63px;
+    position: relative;
+}
+
+#business h1::after {
+    position: absolute;
+    top: 125px;
+    left: 0;
+    width: 130px;
+    height: 3px;
+    background: #EA3A60;
+    content: '';
+}
+
+#business p {
+    margin-top: 35px;
+    color: #555555;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.points {
+    position: relative;
+}
+
+.points .ad-icon {
+    width: 55px;
+    height: 55px;
+    background: #EA3A60;
+    border-radius: 50%;
+    position: absolute;
+    top: 82px;
+    left: 45px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.ad-icon img {
+    margin: 19px 19px;
+}
+
+.po1 {
+    position: absolute;
+    top: 56px;
+    left: 118px;
+}
+
+.po1 h2 {
+    color: #232323;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+
+}
+
+.po1 p {
+    margin-top: 12px !important;
+}
+
+.points .ad-icon2 {
+    width: 55px;
+    height: 55px;
+    background: #EA3A60;
+    border-radius: 50%;
+    position: absolute;
+    top: 195px;
+    left: 45px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.ad-icon2 img {
+    margin: 17px 18px;
+}
+
+.po2 {
+    position: absolute;
+    top: 178px;
+    left: 117px;
+}
+
+.po2 h2 {
+    color: #232323;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+
+}
+
+.po2 p {
+    margin-top: 12px !important;
+}
+
+.points .ad-icon3 {
+    width: 55px;
+    height: 55px;
+    background: #EA3A60;
+    border-radius: 50%;
+    position: absolute;
+    top: 317px;
+    left: 45px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.ad-icon3 img {
+    margin: 19px 17px;
+}
+
+.po3 {
+    position: absolute;
+    top: 300px;
+    left: 117px;
+}
+
+.po3 h2 {
+    color: #232323;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+
+}
+
+.po3 p {
+    margin-top: 12px !important;
+}
+
+.b-img {
+    margin-left: 145px;
+}
+
+
+/* <!-- ================== business part end ================ --> */
+
+
+/* <!-- ================= offer part start ================= --> */
+
+
+#offer {
+    background: #f8f8f8;
+    margin: 78px 0;
+    padding-bottom: 63px;
+}
+
+.title {
+    width: 290px;
+    height: 126px;
+    padding-top: 69px;
+    padding-bottom: 79px;
+    position: relative;
+}
+
+.title h1 {
+    color: #232323;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 63px;
+
+}
+
+.title::before {
+    position: absolute;
+    content: '';
+    top: 55px;
+    left: 465px;
+    width: 3px;
+    height: 128px;
+    background: #EA3A60;
+    padding-top: 76px;
+    padding-bottom: 70px;
+}
+
+.title2 {
+    margin-left: 28px;
+    margin-top: 55px;
+}
+
+.title2 p {
+    color: #555555;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.finance {
+    margin-top: 79px;
+    text-align: center;
+    background: #fff;
+    margin-bottom: 45px;
+}
+
+.finance .fi-icon {
+    color: #EA3A60;
+    font-size: 57px;
+    padding-top: 40px;
+}
+
+.finance h1 {
+    color: #232323;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 19px;
+}
+
+.finance p {
+    color: #555555;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    padding-bottom: 61px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.decisions {
+    margin-top: 79px;
+    text-align: center;
+    background: #fff;
+    margin-bottom: 45px;
+}
+
+.decisions .de-icon {
+    color: #EA3A60;
+    font-size: 57px;
+    padding-top: 40px;
+
+}
+
+.decisions h1 {
+    color: #232323;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 19px;
+}
+
+.decisions p {
+    color: #555555;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    padding-bottom: 61px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.growth {
+    margin-top: 79px;
+    text-align: center;
+    background: #fff;
+    margin-bottom: 45px;
+}
+
+.growth .gr-icon {
+    color: #EA3A60;
+    font-size: 57px;
+    padding-top: 40px;
+
+}
+
+.growth h1 {
+    color: #232323;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 19px;
+}
+
+.growth p {
+    color: #555555;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    padding-bottom: 61px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.missions {
+    margin-top: 79px;
+    text-align: center;
+    background: #fff;
+    margin-bottom: 45px;
+}
+
+.missions .mis-icon {
+    color: #EA3A60;
+    font-size: 57px;
+    padding-top: 40px;
+
+}
+
+.missions h1 {
+    color: #232323;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 19px;
+}
+
+.missions p {
+    color: #555555;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    padding-bottom: 61px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.plan {
+    margin-top: 79px;
+    text-align: center;
+    background: #fff;
+    margin-bottom: 45px;
+}
+
+.plan .plan-icon {
+    color: #EA3A60;
+    font-size: 57px;
+    padding-top: 40px;
+
+}
+
+.plan h1 {
+    color: #232323;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 19px;
+}
+
+.plan p {
+    color: #555555;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    padding-bottom: 61px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.marketing {
+    margin-top: 79px;
+    text-align: center;
+    background: #fff;
+    margin-bottom: 45px;
+}
+
+.marketing .mkt-icon {
+    color: #EA3A60;
+    font-size: 57px;
+    padding-top: 40px;
+
+}
+
+.marketing h1 {
+    color: #232323;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 19px;
+}
+
+.marketing p {
+    color: #555555;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    padding-bottom: 61px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+
+
+
+
+
+
+/* <!-- ================= offer part start ================= --> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!-- ================== solution part end ================= --> */
