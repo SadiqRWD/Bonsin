@@ -1,0 +1,116 @@
+@media (min-width:320px) and (max-width:575px) {
+
+    header {
+        height: 250px;
+    }
+
+    .item2 .icon {
+        position: absolute;
+        top: 90px;
+        left: 0px;
+    }
+
+    .item2 .text {
+        position: absolute;
+        top: 75px;
+        left: 60px;
+    }
+
+    .item3 .icon {
+        position: absolute;
+        top: 148px;
+        left: 0px;
+    }
+
+    .item3 .text {
+        position: absolute;
+        top: 137px;
+        left: 62px;
+    }
+
+    .item::after {
+
+        display: none;
+    }
+
+    .item2::after {
+        display: none;
+    }
+
+    .item4 .icon {
+        text-align: center;
+        margin-top: 200px;
+    }
+
+    .navbar-brand img {
+        width: 80%;
+    }
+
+    .navbar-toggler-icon i {
+        color: #fff;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 .0;
+    }
+
+    .box {
+        width: auto;
+        height: auto;
+        background: transparent;
+        margin-left: 0;
+    }
+
+    #banner .overlay {
+        padding-top: 0;
+    }
+
+    #banner {
+        height: auto;
+    }
+
+    #banner .overlay .box .text {
+        padding: 30px 24px;
+    }
+
+    #banner .overlay .box .text p {
+        font-size: 17px;
+    }
+
+    #banner .overlay .box .text h1 {
+        font-size: 28px;
+        margin-top: 6px;
+        margin-bottom: 9px;
+    }
+
+    #banner .overlay .box .text .small {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    #banner .overlay .box .text .button button {
+        padding: 15px 15px;
+        margin-right: 17px;
+    }
+    #solution {
+        margin: 20px 0;
+    }
+    #solution img {
+        width: 296px;
+    }
+    #solution .box2 {
+        width: auto;
+        height: 120px;
+    }
+
+    .box2 h1 {
+        font-size: 65px;
+    }
+    .box2 h3 {
+        font-size: 17px;
+    }
+
+
+
+    /* ================================ */
+}
